@@ -1,0 +1,25 @@
+{
+  "name": "@tdip/rxjs-react-simple-meta",
+  "private": true,
+  "scripts": {
+    "build": "lerna exec npm run build"
+  },
+  "workspaces": {
+    "packages": [
+      "src/**"
+    ],
+    "nohoist": [
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  },
+  "resolutions": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdip/rxjs-react-simple.git"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@tdip/rxjs-react-simple",
+  "version": "1.0.0",
+  "description": "Simple wrappers for react to use rxjs",
+  "main": "dist/Library.js",
+  "scripts": {
+    "build": "fable-splitter src --config .babelrc.js",
+    "build2": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdip/rxjs-react-simple.git"
+  },
+  "author": "Turning Data Into Products <hello@quantifio.no>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/tdip/rxjs-react-simple/issues"
+  },
+  "homepage": "https://github.com/tdip/rxjs-react-simple#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "fable-compiler": "^2.3.19",
+    "fable-loader": "^2.1.8",
+    "fable-splitter": "^2.1.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
