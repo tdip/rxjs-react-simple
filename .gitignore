@@ -59,3 +59,17 @@ typings/
 
 # next.js build output
 .next
+
+node_modules
+
+obj/
+
+bin/
+
+dist/
+
+.fable/
+
+.cache
+
+.ionide

@@ -1,0 +1,32 @@
+{
+  "name": "@tdip/rxjs-react-simple-examples",
+  "version": "1.0.0",
+  "description": "Example usages of rxjs-react-simple",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdip/rxjs-react-simple.git"
+  },
+  "author": "Turning Data Into Products A.S. <hello@quantifio.no>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/tdip/rxjs-react-simple/issues"
+  },
+  "homepage": "https://github.com/tdip/rxjs-react-simple#readme",
+  "dependencies": {
+    "@tdip/rxjs-react-simple": "^1.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "webpack": "^4.39.1"
+  }
+}
