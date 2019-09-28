@@ -3,6 +3,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="rxjs/Observable.fs" />
+    <Compile Include="rxjs/Operators.fs" />
     <Compile Include="rxjs/Rxjs.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
